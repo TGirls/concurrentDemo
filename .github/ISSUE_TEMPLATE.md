@@ -3,4 +3,4 @@
   * [ ] feature request
   * [ ] support request
 
-* **Do you want to request a *feat
+* **Do you want to request a *feature* or re
