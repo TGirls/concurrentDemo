@@ -5,4 +5,4 @@
 
 * **Do you want to request a *feature* or report a *bug*?**
 
-* **What is the curre
+* **What is the current behavi
