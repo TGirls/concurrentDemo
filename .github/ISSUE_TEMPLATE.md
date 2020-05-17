@@ -7,4 +7,4 @@
 
 * **What is the current behavior?**
 
-* **If
+* **If the current be
