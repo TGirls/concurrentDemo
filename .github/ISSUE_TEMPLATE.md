@@ -7,4 +7,4 @@
 
 * **What is the current behavior?**
 
-* **If the current be
+* **If the current behavior is a bug,
