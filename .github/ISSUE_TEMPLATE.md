@@ -9,4 +9,4 @@
 
 * **If the current behavior is a bug, please provide the steps to reproduce**.
 
-* **What
+* **What is the expect
