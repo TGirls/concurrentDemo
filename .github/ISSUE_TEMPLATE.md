@@ -14,4 +14,5 @@
 * **What is the motivation / use case for changing the behavior?**
 
 * **Please tell us about your environment:**
-  * ver
+  * version: 
+  * OS:
