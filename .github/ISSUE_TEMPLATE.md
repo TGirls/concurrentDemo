@@ -15,4 +15,4 @@
 
 * **Please tell us about your environment:**
   * version: 
-  * OS:
+  * OS: [all | Wi
