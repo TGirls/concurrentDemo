@@ -15,4 +15,4 @@
 
 * **Please tell us about your environment:**
   * version: 
-  * OS: [all | Wi
+  * OS: [all | Windows | macO
