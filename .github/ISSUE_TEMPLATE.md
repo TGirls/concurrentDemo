@@ -15,4 +15,4 @@
 
 * **Please tell us about your environment:**
   * version: 
-  * OS: [all | Windows | macO
+  * OS: [all | Windows | macOS | Debia
