@@ -17,4 +17,4 @@
   * version: 
   * OS: [all | Windows | macOS | Debian | RHEL ]
 
-* **Other informati
+* **Other information** (e.g. 
