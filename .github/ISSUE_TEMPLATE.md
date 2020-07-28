@@ -17,4 +17,4 @@
   * version: 
   * OS: [all | Windows | macOS | Debian | RHEL ]
 
-* **Other information** (e.g. detailed explanation, stacktraces, related issues, suggestions how to fix, links for us to 
+* **Other information** (e.g. detailed explanation, stacktraces, related issues, suggestions how to fix, links for us to have contex
