@@ -67,3 +67,20 @@
     <Exec Command='$(PaketCommand) restore' Condition=" '$(PaketRestoreRequired)' == 'true' " ContinueOnError="false" />
 
     <!-- Step 2 Detect project specific changes -->
+    <PropertyGroup>
+      <PaketReferencesCachedFilePath>$(MSBuildProjectDirectory)\obj\$(MSBuildProjectFile).paket.references.cached</PaketReferencesCachedFilePath>
+      <!-- MyProject.fsproj.paket.references has the highest precedence -->
+      <PaketOriginalReferencesFilePath>$(MSBuildProjectFullPath).paket.references</PaketOriginalReferencesFilePath>
+      <!-- MyProject.paket.references -->
+      <PaketOriginalReferencesFilePath Condition=" !Exists('$(PaketOriginalReferencesFilePath)')">$(MSBuildProjectDirectory)\$(MSBuildProjectName).paket.references</PaketOriginalReferencesFilePath>
+      <!-- paket.references -->
+      <PaketOriginalReferencesFilePath Condition=" !Exists('$(PaketOriginalReferencesFilePath)')">$(MSBuildProjectDirectory)\paket.references</PaketOriginalReferencesFilePath>
+      <PaketResolvedFilePath>$(MSBuildProjectDirectory)\obj\$(MSBuildProjectFile).$(TargetFramework).paket.resolved</PaketResolvedFilePath>
+      <PaketRestoreRequired>true</PaketRestoreRequired>
+      <PaketRestoreRequiredReason>references-file-or-cache-not-found</PaketRestoreRequiredReason>
+    </PropertyGroup>
+
+    <!-- Step 2 a Detect changes in references file -->
+    <PropertyGroup Condition="Exists('$(PaketOriginalReferencesFilePath)') AND Exists('$(PaketReferencesCachedFilePath)') ">
+      <PaketRestoreCachedHash>$([System.IO.File]::ReadAllText('$(PaketReferencesCachedFilePath)'))</PaketRestoreCachedHash>
+      <PaketRestoreReferencesFileHash>$([System.IO.File]::ReadAllText('$(PaketOriginalReferencesFilePath)'))</PaketRestoreReferencesFileHash>
