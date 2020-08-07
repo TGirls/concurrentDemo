@@ -84,3 +84,20 @@
     <PropertyGroup Condition="Exists('$(PaketOriginalReferencesFilePath)') AND Exists('$(PaketReferencesCachedFilePath)') ">
       <PaketRestoreCachedHash>$([System.IO.File]::ReadAllText('$(PaketReferencesCachedFilePath)'))</PaketRestoreCachedHash>
       <PaketRestoreReferencesFileHash>$([System.IO.File]::ReadAllText('$(PaketOriginalReferencesFilePath)'))</PaketRestoreReferencesFileHash>
+      <PaketRestoreRequiredReason>references-file</PaketRestoreRequiredReason>
+      <PaketRestoreRequired Condition=" '$(PaketRestoreReferencesFileHash)' == '$(PaketRestoreCachedHash)' ">false</PaketRestoreRequired>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="!Exists('$(PaketOriginalReferencesFilePath)') AND !Exists('$(PaketReferencesCachedFilePath)') ">
+      <!-- If both don't exist there is nothing to do. -->
+      <PaketRestoreRequired>false</PaketRestoreRequired>
+    </PropertyGroup>
+
+    <!-- Step 2 b detect relevant changes in project file (new targetframework) -->
+    <PropertyGroup Condition=" !Exists('$(PaketResolvedFilePath)') AND '$(TargetFramework)' != '' ">
+      <PaketRestoreRequired>true</PaketRestoreRequired>
+      <PaketRestoreRequiredReason>target-framework '$(TargetFramework)'</PaketRestoreRequiredReason>
+    </PropertyGroup>
+
+    <!-- Step 3 Restore project specific stuff if required -->
+    <Message Condition=" '$(PaketRestoreRequired)' == 'true' " Importance="low" Text="Detected a change ('$(PaketRestoreRequiredReason)') in the project file '$(MSBuildProjectFullPath)', calling paket restore" />
