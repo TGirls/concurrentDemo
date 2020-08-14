@@ -138,3 +138,14 @@
       </PaketCliToolFileLinesInfo>
       <DotNetCliToolReference Include="%(PaketCliToolFileLinesInfo.PackageName)">
         <Version>%(PaketCliToolFileLinesInfo.PackageVersion)</Version>
+      </DotNetCliToolReference>
+    </ItemGroup>
+
+    <PropertyGroup>
+      <RestoreConfigFile>$(MSBuildProjectDirectory)/obj/$(MSBuildProjectFile).NuGet.Config</RestoreConfigFile>
+    </PropertyGroup>
+
+  </Target>
+
+  <Target Name="PaketDisableDirectPack" AfterTargets="_IntermediatePack" BeforeTargets="GenerateNuspec" Condition="('$(IsPackable)' == '' Or '$(IsPackable)' == 'true') And Exists('$(MSBuildProjectDirectory)/obj/$(MSBuildProjectFile).references')" >
+    <PropertyGroup>
