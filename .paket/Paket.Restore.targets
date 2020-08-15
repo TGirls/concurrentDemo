@@ -177,3 +177,21 @@
       <Output TaskParameter="AbsolutePaths" PropertyName="NuspecFileAbsolutePath" />
     </ConvertToAbsolutePath>      
         
+
+    <!-- Call Pack -->
+    <PackTask Condition="$(UseNewPack)"
+              PackItem="$(PackProjectInputFile)"
+              PackageFiles="@(_PackageFiles)"
+              PackageFilesToExclude="@(_PackageFilesToExclude)"
+              PackageVersion="$(PackageVersion)"
+              PackageId="$(PackageId)"
+              Title="$(Title)"
+              Authors="$(Authors)"
+              Description="$(Description)"
+              Copyright="$(Copyright)"
+              RequireLicenseAcceptance="$(PackageRequireLicenseAcceptance)"
+              LicenseUrl="$(PackageLicenseUrl)"
+              ProjectUrl="$(PackageProjectUrl)"
+              IconUrl="$(PackageIconUrl)"
+              ReleaseNotes="$(PackageReleaseNotes)"
+              Tags="$(PackageTags)"
