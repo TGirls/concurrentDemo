@@ -221,3 +221,13 @@
               NuspecFile="$(NuspecFileAbsolutePath)"
               NuspecBasePath="$(NuspecBasePath)"
               NuspecProperties="$(NuspecProperties)"/>
+
+    <PackTask Condition="! $(UseNewPack)"
+              PackItem="$(PackProjectInputFile)"
+              PackageFiles="@(_PackageFiles)"
+              PackageFilesToExclude="@(_PackageFilesToExclude)"
+              PackageVersion="$(PackageVersion)"
+              PackageId="$(PackageId)"
+              Title="$(Title)"
+              Authors="$(Authors)"
+              Description="$(Description)"
