@@ -254,3 +254,13 @@
               MinClientVersion="$(MinClientVersion)"
               Serviceable="$(Serviceable)"
               AssemblyReferences="@(_References)"
+              ContinuePackingAfterGeneratingNuspec="$(ContinuePackingAfterGeneratingNuspec)"
+              NuspecOutputPath="$(AdjustedNuspecOutputPath)"
+              IncludeBuildOutput="$(IncludeBuildOutput)"
+              BuildOutputFolder="$(BuildOutputTargetFolder)"
+              ContentTargetFolders="$(ContentTargetFolders)"
+              RestoreOutputPath="$(RestoreOutputAbsolutePath)"
+              NuspecFile="$(NuspecFileAbsolutePath)"
+              NuspecBasePath="$(NuspecBasePath)"
+              NuspecProperties="$(NuspecProperties)"/>
+  </Target>
