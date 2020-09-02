@@ -25,3 +25,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{316D
 		.github\PULL_REQUEST_TEMPLATE.md = .github\PULL_REQUEST_TEMPLATE.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D6EE2074-A44E-4F92-802C-03560B445DED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitcoinAmiens.CryptoTradingBot.App", "src\BitcoinAmiens.CryptoTradingBot.App\BitcoinAmiens.CryptoTradingBot.App.csproj", "{8E1DF0B0-70C5-43EF-A1AC-C854AA4CEC93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitcoinAmiens.CryptoTradingBot.App.Test", "test\BitcoinAmiens.CryptoTradingBot.App.Test\BitcoinAmiens.CryptoTradingBot.App.Test.csproj", "{1FCDAAB1-E62D-4A84-B802-B2B0BFE689D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{080AF009-304C-4891-BA15-1B17EC052E34}"
