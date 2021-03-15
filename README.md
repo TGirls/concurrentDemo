@@ -1,1 +1,1 @@
-# Cryptocu
+# Cryptocurrencies trading 
