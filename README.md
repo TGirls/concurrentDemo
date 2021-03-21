@@ -1,1 +1,3 @@
-# Cryptocurrencies trading 
+# Cryptocurrencies trading bot
+
+This
