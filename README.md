@@ -1,3 +1,3 @@
 # Cryptocurrencies trading bot
 
-This project aims t
+This project aims to help you t
