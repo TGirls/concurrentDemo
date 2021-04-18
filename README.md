@@ -2,4 +2,4 @@
 
 This project aims to help you to trade multiple cryptocurrencies on multiple platforms, such as CoinBase.
 
-B
+Be aware that
