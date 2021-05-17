@@ -4,4 +4,4 @@ This project aims to help you to trade multiple cryptocurrencies on multiple pla
 
 Be aware that this project is not production-ready !
 
-## 
+## Getting starte
