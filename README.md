@@ -6,4 +6,4 @@ Be aware that this project is not production-ready !
 
 ## Getting started dev
 
-First, 
+First, clone and 
