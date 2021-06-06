@@ -6,4 +6,5 @@ Be aware that this project is not production-ready !
 
 ## Getting started dev
 
-First, clone and 
+First, clone and fork the repo.
+
