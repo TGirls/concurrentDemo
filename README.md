@@ -8,4 +8,4 @@ Be aware that this project is not production-ready !
 
 First, clone and fork the repo.
 
-[Paket](htt
+[Paket](https://fspro
