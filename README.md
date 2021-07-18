@@ -8,4 +8,4 @@ Be aware that this project is not production-ready !
 
 First, clone and fork the repo.
 
-[Paket](https://fsprojects.github.io/Paket/index.h
+[Paket](https://fsprojects.github.io/Paket/index.html) i
