@@ -8,4 +8,4 @@ Be aware that this project is not production-ready !
 
 First, clone and fork the repo.
 
-[Paket](https://fsprojects.github.io/Paket/index.html) is required to manage dependecies, since we may host some of our home-made dependencies 
+[Paket](https://fsprojects.github.io/Paket/index.html) is required to manage dependecies, since we may host some of our home-made dependencies on GitHub i
