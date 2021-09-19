@@ -1,4 +1,4 @@
 source https://api.nuget.org/v3/index.json
 
 clitool dotnet-xunit 2.3.1
-nuget Microsoft.N
+nuget Microsoft.NET.Test.Sdk 1
