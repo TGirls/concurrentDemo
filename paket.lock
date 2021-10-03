@@ -37,3 +37,19 @@ NUGET
       System.Text.Encoding (>= 4.3) - restriction: >= netstandard1.3
       System.Text.Encoding.CodePages (>= 4.3) - restriction: >= netstandard1.3
       System.Text.Encoding.Extensions (>= 4.3) - restriction: >= netstandard1.3
+      System.Threading (>= 4.3) - restriction: >= netstandard1.3
+      System.Threading.Tasks (>= 4.3) - restriction: >= netstandard1.3
+      System.Threading.Tasks.Parallel (>= 4.3) - restriction: >= netstandard1.3
+      System.Threading.Thread (>= 4.3) - restriction: >= netstandard1.3
+      System.ValueTuple (>= 4.3) - restriction: >= netstandard1.3
+      System.Xml.ReaderWriter (>= 4.3) - restriction: >= netstandard1.3
+      System.Xml.XDocument (>= 4.3) - restriction: >= netstandard1.3
+      System.Xml.XmlDocument (>= 4.3) - restriction: >= netstandard1.3
+      System.Xml.XPath.XDocument (>= 4.3) - restriction: >= netstandard1.3
+    Microsoft.CodeAnalysis.CSharp (2.6.1) - restriction: || (&& (>= netcoreapp1.0) (< netcoreapp1.1)) (&& (>= netcoreapp1.1) (< netcoreapp2.0))
+      Microsoft.CodeAnalysis.Common (2.6.1)
+    Microsoft.CodeAnalysis.VisualBasic (2.6.1) - restriction: || (&& (>= netcoreapp1.0) (< netcoreapp1.1)) (&& (>= netcoreapp1.1) (< netcoreapp2.0))
+      Microsoft.CodeAnalysis.Common (>= 2.6.1)
+    Microsoft.CodeCoverage (1.0.3)
+    Microsoft.CSharp (4.4.1) - restriction: || (>= netcoreapp1.0) (&& (>= netcoreapp1.1) (< netcoreapp2.0)) (>= uap10.0)
+      NETStandard.Library (>= 1.6.1) - restriction: || (>= dnxcore50) (&& (< monoandroid) (< net45) (>= netstandard1.0) (< netstandard1.3) (< win8) (< wp8) (< wpa81)) (&& (< monotouch) (< net45) (>= netstandard1.3) (< netstandard2.0) (< win8) (< wpa81) (< xamarinios) (< xamarinmac) (< xamarintvos) (< xamarinwatchos))
