@@ -83,3 +83,18 @@ NUGET
       Microsoft.DiaSymReader.Native (>= 1.4.1) - restriction: && (>= netcoreapp1.1) (< netcoreapp2.0)
       Microsoft.NETCore.DotNetHostPolicy (>= 1.0.8) - restriction: && (>= netcoreapp1.0) (< netcoreapp1.1)
       Microsoft.NETCore.DotNetHostPolicy (>= 1.1.5) - restriction: && (>= netcoreapp1.1) (< netcoreapp2.0)
+      Microsoft.NETCore.DotNetHostPolicy (>= 2.0.4) - restriction: >= netcoreapp2.0
+      Microsoft.NETCore.Platforms (>= 1.0.2) - restriction: && (>= netcoreapp1.0) (< netcoreapp1.1)
+      Microsoft.NETCore.Platforms (>= 2.0.1) - restriction: >= netcoreapp2.0
+      Microsoft.NETCore.Runtime.CoreCLR (>= 1.0.10) - restriction: && (>= netcoreapp1.0) (< netcoreapp1.1)
+      Microsoft.NETCore.Runtime.CoreCLR (>= 1.1.5) - restriction: && (>= netcoreapp1.1) (< netcoreapp2.0)
+      Microsoft.NETCore.Targets (>= 1.1.2) - restriction: && (>= netcoreapp1.1) (< netcoreapp2.0)
+      Microsoft.VisualBasic (>= 10.0.1) - restriction: && (>= netcoreapp1.0) (< netcoreapp1.1)
+      Microsoft.VisualBasic (>= 10.1) - restriction: && (>= netcoreapp1.1) (< netcoreapp2.0)
+      NETStandard.Library (>= 1.6) - restriction: && (>= netcoreapp1.0) (< netcoreapp1.1)
+      NETStandard.Library (>= 1.6.1) - restriction: && (>= netcoreapp1.1) (< netcoreapp2.0)
+      NETStandard.Library (>= 2.0.1) - restriction: >= netcoreapp2.0
+      runtime.native.System.IO.Compression (>= 4.3.1) - restriction: && (>= netcoreapp1.1) (< netcoreapp2.0)
+      runtime.native.System.Security.Cryptography (>= 4.0.3) - restriction: && (>= netcoreapp1.0) (< netcoreapp1.1)
+      runtime.native.System.Security.Cryptography (>= 4.3.3) - restriction: && (>= netcoreapp1.1) (< netcoreapp2.0)
+      runtime.native.System.Security.Cryptography.Apple (>= 4.3.1) - restriction: && (>= netcoreapp1.1) (< netcoreapp2.0)
