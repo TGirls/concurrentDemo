@@ -166,3 +166,8 @@ NUGET
       System.Threading.Tasks.Parallel (>= 4.0.1) - restriction: && (>= netcoreapp1.0) (< netcoreapp1.1)
       System.Threading.Tasks.Parallel (>= 4.3) - restriction: && (>= netcoreapp1.1) (< netcoreapp2.0)
       System.Threading.Thread (>= 4.0) - restriction: && (>= netcoreapp1.0) (< netcoreapp1.1)
+      System.Threading.Thread (>= 4.3) - restriction: && (>= netcoreapp1.1) (< netcoreapp2.0)
+      System.Threading.ThreadPool (>= 4.0.10) - restriction: && (>= netcoreapp1.0) (< netcoreapp1.1)
+      System.Threading.ThreadPool (>= 4.3) - restriction: && (>= netcoreapp1.1) (< netcoreapp2.0)
+    Microsoft.NETCore.DotNetAppHost (2.0.4) - restriction: >= netcoreapp1.0
+    Microsoft.NETCore.DotNetHostPolicy (2.0.4) - restriction: >= netcoreapp1.0
