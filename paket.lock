@@ -1123,3 +1123,14 @@ NUGET
       xunit.analyzers (>= 0.7)
       xunit.assert (2.3.1)
       xunit.core (2.3.1)
+    xunit.abstractions (2.0.1) - restriction: >= netstandard1.1
+      NETStandard.Library (>= 1.6) - restriction: && (< net35) (>= netstandard1.0)
+    xunit.analyzers (0.8)
+    xunit.assert (2.3.1)
+      NETStandard.Library (>= 1.6.1) - restriction: && (< net452) (>= netstandard1.1)
+    xunit.core (2.3.1)
+      xunit.extensibility.core (2.3.1)
+      xunit.extensibility.execution (2.3.1)
+    xunit.extensibility.core (2.3.1)
+      NETStandard.Library (>= 1.6.1) - restriction: && (< net452) (>= netstandard1.1)
+      xunit.abstractions (>= 2.0.1) - restriction: >= netstandard1.1
