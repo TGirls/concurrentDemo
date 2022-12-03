@@ -4,4 +4,4 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
-  <Import Projec
+  <Import Project="..\..\.p
