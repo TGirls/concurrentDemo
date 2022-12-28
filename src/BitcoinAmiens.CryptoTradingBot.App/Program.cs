@@ -1,3 +1,3 @@
 ﻿using System;
 
-namespace BitcoinAmie
+namespace BitcoinAmiens.CryptoT
