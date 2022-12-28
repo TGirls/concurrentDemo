@@ -1,3 +1,3 @@
 ﻿using System;
 
-namespace BitcoinAmiens.CryptoT
+namespace BitcoinAmiens.CryptoTradingBot.App
