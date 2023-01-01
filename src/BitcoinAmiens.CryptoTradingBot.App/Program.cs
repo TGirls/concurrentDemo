@@ -2,4 +2,5 @@
 
 namespace BitcoinAmiens.CryptoTradingBot.App
 {
-    class Progra
+    class Program
+    {
