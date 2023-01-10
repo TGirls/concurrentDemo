@@ -4,4 +4,4 @@ namespace BitcoinAmiens.CryptoTradingBot.App
 {
     class Program
     {
-        static void Main(str
+        static void Main(string[] args)
