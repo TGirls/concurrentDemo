@@ -6,3 +6,4 @@ namespace BitcoinAmiens.CryptoTradingBot.App
     {
         static void Main(string[] args)
         {
+          
