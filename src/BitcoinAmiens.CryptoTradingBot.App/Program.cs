@@ -6,4 +6,4 @@ namespace BitcoinAmiens.CryptoTradingBot.App
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(
+            Console.WriteLine("Hello W
