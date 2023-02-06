@@ -8,4 +8,5 @@ namespace BitcoinAmiens.CryptoTradingBot.App
         {
             Console.WriteLine("Hello World!");
         }
- 
+    }
+}
