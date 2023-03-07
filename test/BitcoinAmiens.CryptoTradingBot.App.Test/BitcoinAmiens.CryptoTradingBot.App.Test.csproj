@@ -2,4 +2,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <IsPackable>fa
+    <IsPackable>false</IsPackab
