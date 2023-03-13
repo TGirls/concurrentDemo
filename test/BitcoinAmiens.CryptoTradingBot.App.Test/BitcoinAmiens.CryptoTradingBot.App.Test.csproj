@@ -4,4 +4,4 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
-  <Import Project=
+  <Import Project="..\..\.pake
