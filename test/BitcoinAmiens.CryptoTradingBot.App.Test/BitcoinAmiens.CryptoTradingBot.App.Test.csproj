@@ -5,4 +5,4 @@
     <IsPackable>false</IsPackable>
   </PropertyGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
-</Project
+</Project>
