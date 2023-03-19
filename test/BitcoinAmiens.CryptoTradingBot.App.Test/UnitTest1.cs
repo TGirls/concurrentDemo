@@ -1,4 +1,4 @@
 using System;
 using Xunit;
 
-namespace BitcoinAmie
+namespace BitcoinAmiens.CryptoTradi
