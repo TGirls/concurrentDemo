@@ -1,4 +1,4 @@
 using System;
 using Xunit;
 
-namespace BitcoinAmiens.CryptoTradi
+namespace BitcoinAmiens.CryptoTradingBot.
