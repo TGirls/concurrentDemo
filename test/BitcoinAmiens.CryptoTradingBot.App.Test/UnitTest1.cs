@@ -3,4 +3,4 @@ using Xunit;
 
 namespace BitcoinAmiens.CryptoTradingBot.App.Test
 {
-    public class 
+    public class UnitTes
