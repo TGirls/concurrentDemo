@@ -5,3 +5,5 @@ namespace BitcoinAmiens.CryptoTradingBot.App.Test
 {
     public class UnitTest1
     {
+        [Fact]
+  
