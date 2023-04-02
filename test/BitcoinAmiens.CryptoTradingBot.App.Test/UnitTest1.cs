@@ -10,4 +10,5 @@ namespace BitcoinAmiens.CryptoTradingBot.App.Test
         {
 
         }
-    
+    }
+}
