@@ -9,4 +9,5 @@ namespace BitcoinAmiens.CryptoTradingBot.App.Test
         public void Test1()
         {
 
-  
+        }
+    
